@@ -1,0 +1,3 @@
+-- Space - ignite / extinguish fire
+-- Z - activate / deactivate "lightning element" katana
+-- X - activate / deactivate "nature element" katana
