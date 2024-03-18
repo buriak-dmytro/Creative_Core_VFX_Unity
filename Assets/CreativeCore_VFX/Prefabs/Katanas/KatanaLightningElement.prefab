@@ -1,0 +1,195 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6057096818881602477
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6060692796199843171}
+  - component: {fileID: 724718423}
+  m_Layer: 0
+  m_Name: KatanaLightningElement
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6060692796199843171
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6057096818881602477}
+  m_LocalRotation: {x: 0.3535534, y: 0.3535534, z: 0.61237246, w: 0.61237246}
+  m_LocalPosition: {x: -2.0386229, y: 0.26700187, z: -3.2728522}
+  m_LocalScale: {x: 0.12, y: 0.12, z: 0.12}
+  m_ConstrainProportionsScale: 1
+  m_Children:
+  - {fileID: 6056209087385916021}
+  - {fileID: 8603086452627205878}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 60, z: 90}
+--- !u!114 &724718423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6057096818881602477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f3f176a4f6967d43aba33be8b60ef15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toggleKey: 122
+  particle: {fileID: 6056209087385916023}
+  material: {fileID: 2100000, guid: 04c65e9249fd8b543b8035821a1b848d, type: 2}
+  emissionColor: {r: 0.81785315, g: 0.8490566, b: 0.14017442, a: 0}
+  emissionIntensity: 2
+  emissionToggleTime: 0.5
+--- !u!1001 &6935456723250577319
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6060692796199843171}
+    m_Modifications:
+    - target: {fileID: 1680583913530507745, guid: e4e0a6cf26b664944a728856e22ee490, type: 3}
+      propertyPath: m_Name
+      value: KatanaModelLightning
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683216687536542033, guid: e4e0a6cf26b664944a728856e22ee490, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683216687536542033, guid: e4e0a6cf26b664944a728856e22ee490, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683216687536542033, guid: e4e0a6cf26b664944a728856e22ee490, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683216687536542033, guid: e4e0a6cf26b664944a728856e22ee490, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683216687536542033, guid: e4e0a6cf26b664944a728856e22ee490, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683216687536542033, guid: e4e0a6cf26b664944a728856e22ee490, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683216687536542033, guid: e4e0a6cf26b664944a728856e22ee490, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683216687536542033, guid: e4e0a6cf26b664944a728856e22ee490, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.000000029802322
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683216687536542033, guid: e4e0a6cf26b664944a728856e22ee490, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683216687536542033, guid: e4e0a6cf26b664944a728856e22ee490, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683216687536542033, guid: e4e0a6cf26b664944a728856e22ee490, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e4e0a6cf26b664944a728856e22ee490, type: 3}
+--- !u!4 &8603086452627205878 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1683216687536542033, guid: e4e0a6cf26b664944a728856e22ee490, type: 3}
+  m_PrefabInstance: {fileID: 6935456723250577319}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8982306409664726422
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6060692796199843171}
+    m_Modifications:
+    - target: {fileID: 2930834028039149537, guid: 5233c04d0160acf4e8c85a041b4d0119, type: 3}
+      propertyPath: looping
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2930834028039149537, guid: 5233c04d0160acf4e8c85a041b4d0119, type: 3}
+      propertyPath: lengthInSec
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2930834028039149537, guid: 5233c04d0160acf4e8c85a041b4d0119, type: 3}
+      propertyPath: LightsModule.ratio
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2930834028039149539, guid: 5233c04d0160acf4e8c85a041b4d0119, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2930834028039149539, guid: 5233c04d0160acf4e8c85a041b4d0119, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.0000007588715
+      objectReference: {fileID: 0}
+    - target: {fileID: 2930834028039149539, guid: 5233c04d0160acf4e8c85a041b4d0119, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 28.510164
+      objectReference: {fileID: 0}
+    - target: {fileID: 2930834028039149539, guid: 5233c04d0160acf4e8c85a041b4d0119, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.30995807
+      objectReference: {fileID: 0}
+    - target: {fileID: 2930834028039149539, guid: 5233c04d0160acf4e8c85a041b4d0119, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.999912
+      objectReference: {fileID: 0}
+    - target: {fileID: 2930834028039149539, guid: 5233c04d0160acf4e8c85a041b4d0119, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.013263744
+      objectReference: {fileID: 0}
+    - target: {fileID: 2930834028039149539, guid: 5233c04d0160acf4e8c85a041b4d0119, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.000000029802315
+      objectReference: {fileID: 0}
+    - target: {fileID: 2930834028039149539, guid: 5233c04d0160acf4e8c85a041b4d0119, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.000000029802315
+      objectReference: {fileID: 0}
+    - target: {fileID: 2930834028039149539, guid: 5233c04d0160acf4e8c85a041b4d0119, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 1.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 2930834028039149539, guid: 5233c04d0160acf4e8c85a041b4d0119, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2930834028039149539, guid: 5233c04d0160acf4e8c85a041b4d0119, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2930834028039149548, guid: 5233c04d0160acf4e8c85a041b4d0119, type: 3}
+      propertyPath: m_Name
+      value: LightningElement
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5233c04d0160acf4e8c85a041b4d0119, type: 3}
+--- !u!4 &6056209087385916021 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2930834028039149539, guid: 5233c04d0160acf4e8c85a041b4d0119, type: 3}
+  m_PrefabInstance: {fileID: 8982306409664726422}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &6056209087385916023 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 2930834028039149537, guid: 5233c04d0160acf4e8c85a041b4d0119, type: 3}
+  m_PrefabInstance: {fileID: 8982306409664726422}
+  m_PrefabAsset: {fileID: 0}
